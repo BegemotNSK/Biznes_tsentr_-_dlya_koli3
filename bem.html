@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css_bem.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">   
+        <div class="header-menu">
+            <div class="container">
+                <div class="menu">
+                    <a class="menu__link menu__link--activ" href="">Галерея</a>
+                    <a class="menu__link menu__link--activ" href="">Месторасположение</a>
+                    <a class="menu__link menu__link--activ" href="">Инфраструктура</a>
+                    <a class="menu__link menu__link--activ" href="">Планировки</a>
+                    <a class="menu__link menu__link--activ" href="">Документы</a>
+                    <a class="menu__link menu__link--activ" href="">Цены</a>
+                    <a class="menu__link menu__link--activ" href="">Контакты</a>
+                    <a class="menu__link-tel menu__link-tel--activ" href="tel:+73832484808">+7 (383) 248-48-08</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="content-block">
+                    <div class="block-foto">
+                        <img class="foto foto-header" src="/image/Layer-259-copy-15.png" alt="">
+                    </div>
+                        <div class="content-text-logo">
+                            <div class="content-text">
+                                <div class="content-text__item">Современный, строящийся</div>
+                                <div class="content-text__item">БИЗНЕС-ЦЕНТР <br> ПРЕМИУМ-КЛАССА</div>
+                                <div class="content-text__item">Продажа офисных и коммерческий помещений в Новосибирске</div>
+                                <div class="content-text__item">“Надежные инвестиции, Деловая репутация”</div>
+                            </div> 
+                            <div class="logo-text">
+                                <div class="logo-text__text">Наши <br> партнеры:
+                                </div>
+                                <div class="logo">
+                                    <img class="logo__img" src="/image/logo/Rectangle23.png" alt="">
+                                </div>
+                                <div class="logo">
+                                    <img class="logo__img" src="/image/logo/Layer 260.png" alt="">
+                                </div>
+                                <div class="logo">
+                                    <img class="logo__img" src="/image/logo/Layer 261.png" alt="">
+                                </div>
+                            </div>
+                        </div>                                                       
+                </div>
+            </div>
+        </div>     
+    </header>
+    <!-- секция СКИДКА -->
+    <section class="sale">
+        <div class="container">
+            <div class="box-sale">
+                <div class="block-foto">
+                    <img class="foto foto-sale" src="/image/фон девушка.png" alt="">
+                </div>
+                <div class="info-text-form">
+                    <div class="info-text">
+                        <div class="sale-text">Получите скидку до 28% <br> при покупке помещения</div>
+                        <div class="sale-text">Введите ваше имя, e-mail и телефон.</div>
+                        <div class="sale-text">Наш специалист свяжется с вами для консультации.</div>
+                    </div>
+                    <form class="form" name="sale">
+                        <div class="form__name">
+                            <span class="form__name-text">Введите Ваше имя:</span>
+                            <input class="input-name" type="text" id="name" placeholder="Иван Иванов">
+                        </div>
+                        <div class="form-mail">
+                            <span class="form__name-text">Введите Ваш e-mail:</span>
+                            <input class="input-mail" type="email" name="" id="mail" placeholder="ivanov@mail.ru">
+                        </div>
+                        <div class="form-tel">
+                            <span class="form__name-text">Введите Ваш телефон:</span>
+                            <div class="input_tel">
+                                <div class="input_tel-1">
+                                    <input class="tel" type="tel" name="" id="fon1" placeholder="+7">
+                                </div>
+                                <div class="input_tel-2">
+                                    <input class="tel" type="tel" name="" id="fon2" placeholder="123">
+                                </div>
+                                <div class="input_tel-3">
+                                    <input class="tel" type="tel" name="" id="fon3" placeholder="456-78-90">
+                                </div>
+                            </div>
+                            <div class="button button-sale">
+                                <input class="input-button" type="submit" value="Получить бесплатную консультацию">
+                            </div>
+                            <div class="call">
+                                <span class="call__text">Или позвоните нам по телефону +7 (383) 248-48-08</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Бизнес центр Капитал-М -->
+    <section class="bisness-capital">
+        <div class="container">
+            <div class="bisness">
+                <span class="bisness-text">Бизнес-центр</span>
+                <span class="bisness-text">“Капитал-М”</span>
+            </div>
+            <div class="bisness-img">
+                <img src="/image/bisness-img.png.png" alt="">
+            </div>
+            <div class="button buttom-capital">
+                <a class="input-button" href="">Скачать презентацию бизнес-центра</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Карта навигация -->
+    <section class="map">
+        <div class="map-gps">
+            <div class="map-info">
+                    <div class="map-text-gps" >Месторасположение</div> 
+                    
+                    <ul>
+                        <li class="map-text">г. Новосибирск, ул. Военная Горка 4-я линия, д.36</li>
+                        <li class="map-text">Прямой доступ к Каменской магистрали</li>
+                        <li class="map-text">Здание расположено рядом с ТРЦ “АУРА” в 500 метрах</li>
+                        <li class="map-text">Рядом метро Площадь Ленина - 1,8 км</li>
+                        <li class="map-text">В шаговой доступности от остановок общественного транспорта</li>
+                    </ul> 
+                    
+            </div>
+        </div>
+            
+    </section>
+
+<!-- Инфроструктура -->
+    <section class="structura">
+        <div class="container">
+            <div class="str">
+                <span class="struc">Инфраструктура</span>
+            </div>
+            <div class="sreda">
+                <span class="ramka">Комфортная среда для работы и развития вашего бизнеса</span>
+            </div>    
+            <div class="block-logo">
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка1.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Парковка</span>
+                    </div>
+                    2х - уровневая, охраняемая <br>
+                    подземная парковка <br>
+                    на 158 мест                    
+                </div>   
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото2.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка2.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Офисы</span>
+                    </div>
+                    Уютные офисы от 20 до 500 м2. 11 000 м2 офисных помещений с “умными” планировками                    
+                </div>   
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото3.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка3.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Охрана</span>
+                    </div>
+                    Централизируемая охрана здания и прилегающей территории, круглосуточное видеонаблюдение и система контроля доступа                   
+                </div>   
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото4.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка4.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Фитнес</span>
+                    </div>
+                    На 1 и 2 этажах расположен крупный фитнесс-центр. Работайте и будьте в форме                   
+                </div>
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото5.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка5.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Бассейн</span>
+                    </div>
+                    На 0 этаже бизнес-центра находится огромный плавательный бассейн                    
+                </div>   
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото6.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка6.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Ресторан</span>
+                    </div>
+                    В здании расположен ресторан, кафе, и другие заведения общественного питания                   
+                </div>
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото7.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка7.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Интернет</span>
+                    </div>
+                    Объект обслуживается высокоскоростной сетью интернет и системой бесперебойной подачи электричества                    
+                </div>    
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото8.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка8.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Микроклимат</span>
+                    </div>
+                    Единая система отопления, вентиляции и кондиционирования воздуха в помещении                   
+                </div>    
+                <div class="bl-l">
+                    <img class="fotog" src="/image/фото9.png" alt="">
+                    <div class="ikon">
+                        <img class="fon-icon" src="/image/logo/Иконка9.png" alt="">
+                    </div>
+                    <div class="parcing">
+                        <span class="bl-text1">Защита от пожара</span>
+                    </div>
+                    В здании установлен современный комплекс противопожарной защиты                   
+                </div>
+            </div>           
+        </div>   
+    </section>
+
+<!-- Рассрочка -->
+    <section class="bank">
+        <div class="container">
+            <div class="box-sale">
+                <div class="block-foto">
+                    <img class="foto foto-bank" src="/image/men.png.png" alt="">
+                </div>
+                <div class="info-text-form">
+                    <div class="info-text">
+                        <div class="sale-text">Безпроцентная рассрочка <br> при покупке офиса</div>
+                        <div class="sale-text">Введите ваше имя, e-mail и телефон.</div>
+                        <div class="sale-text">Наш специалист свяжется с вами для консультации.</div>
+                    </div>
+                    <form class="form" name="sale">
+                        <div class="form__name">
+                            <span class="form__name-text">Введите Ваше имя:</span>
+                            <input class="input-name" type="text" id="name" placeholder="Иван Иванов">
+                        </div>
+                        <div class="form-mail">
+                            <span class="form__name-text">Введите Ваш e-mail:</span>
+                            <input class="input-mail" type="email" name="" id="mail" placeholder="ivanov@mail.ru">
+                        </div>
+                        <div class="form-tel">
+                            <span class="form__name-text">Введите Ваш телефон:</span>
+                            <div class="input_tel">
+                                <div class="input_tel-1">
+                                    <input class="tel" type="tel" name="" id="fon1" placeholder="+7">
+                                </div>
+                                <div class="input_tel-2">
+                                    <input class="tel" type="tel" name="" id="fon2" placeholder="123">
+                                </div>
+                                <div class="input_tel-3">
+                                    <input class="tel" type="tel" name="" id="fon3" placeholder="456-78-90">
+                                </div>
+                            </div>
+                            <div class="button button-bank">
+                                <input class="input-button" type="submit" value="Получить бесплатную консультацию">
+                            </div>
+                            <div class="call">
+                                <span class="call__text">Или позвоните нам по телефону +7 (383) 248-48-08</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+<!-- Планировка -->
+<section class="planirovca">
+    <div class="container">
+        <span class="pl-dom">Планировки этажей</span>
+        <div class="bck-block"lo>
+            <div class="block-ob">
+                <div class="block-plan">
+                    <div class="plan-text">
+                        -1, -2 этажи
+                    </div>       
+                    <div class="plan1-1">
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план1.png" alt="">
+                                </div>
+                        </div>
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                  <img src="/image/фото визуализация1.png" alt="">  
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-plan">
+                    <div class="plan-text">
+                        1 этаж
+                    </div>       
+                    <div class="plan1-1">                       
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план2.png" alt="">
+                                </div>
+                        </div>                           
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация2.png" alt=""> 
+                                </div>
+                        </div>                   
+                    </div>                            
+                </div>   
+                <div class="block-plan">
+                    <div class="plan-text">
+                        2 этаж
+                    </div>       
+                    <div class="plan1-1">                       
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план3.png" alt="">
+                                </div>
+                        </div>                           
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация3.png" alt=""> 
+                                </div>
+                        </div>                    
+                    </div>                           
+                </div>    
+                <div class="block-plan">
+                    <div class="plan-text">
+                        3 - 4 этажи
+                    </div>       
+                    <div class="plan1-1">                       
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план4.png" alt="">
+                                </div>
+                        </div>                          
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация4.png" alt="">
+                                </div>
+                        </div>                   
+                    </div>
+                </div>   
+                <div class="block-plan">
+                    <div class="plan-text">
+                        5 - 11 этажи
+                    </div>       
+                    <div class="plan1-1">
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план5.png" alt="">
+                                </div>
+                        </div>
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация5.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="block-plan">
+                    <div class="plan-text">
+                        12 - 16 этажи
+                    </div>
+                    <div class="plan1-1">
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план6.png" alt="">
+                                </div>
+                        </div>
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация6.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="block-plan">
+                    <div class="plan-text">
+                        17 - 19 этажи
+                    </div>
+                    <div class="plan1-1">
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план7.png" alt="">
+                                </div>
+                        </div>
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация7.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="block-plan">
+                    <div class="plan-text">
+                        20 этаж
+                    </div>       
+                    <div class="plan1-1">
+                        <div class="pl-1">
+                                План
+                                <div class="pl-image">
+                                    <img src="/image/фото план8.png" alt="">
+                                </div>
+                        </div>
+                        <div class="pl-2">
+                                Визуализация
+                                <div class="pl-image">
+                                    <img src="/image/фото визуализация8.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="button button-plan">
+                <a class="button-downloand" href="">Скачать планировку этажей</a>
+            </div>                    
+        </div>        
+    </div>
+</section>
+
+
+<!-- Купить-Сдать -->
+<section class="rent">
+    <div class="container">
+        <div class="aaa">Купите офис и сдавайте его в аренду
+        </div>
+
+        <div class="bb1">Площадь
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange" 
+            style="width: 480px; height: 5px; margin-left: 230px;">
+        </div>
+        <div class="bb">100 м2
+        </div>
+
+        <div class="bb1">Арендная ставка ( за м2 )
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange"
+          style="width: 480px; height: 5px; margin-left: 230px;">
+        </div>
+        <div class="bb">1 000 рублей
+        </div>
+
+        <div class="bbbb">
+            <div>
+              <span class="bb2">Ежегодный доход от аренды:</span>
+            </div>
+            <div>
+                <span class="bb3">1 440 000 рублей</span>
+            </div>
+        </div>
+        <div class="spec">
+            <a class="spec-predl" href="">Специальное предложение для инвесторов</a>
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+<!--Приглашение инвесторов -->
+<div class="container">
+    <div class="prigl">Приглашаем инвесторов
+    </div>
+    <div class="ramka2">Недвижимость представительского класса,<br>удовлетворяющая самым взыскательным требованиям
+    </div>
+
+    <div class="logotip">
+        <div class="bass">
+            <img src="/image/logo/Бассейн.png.png" alt="">
+            <div class="bold16">Фитнес клуб <br> с бассейном 25х6м2</div>
+        </div>
+
+        <div class="bass">
+            <img src="/image/logo/Мед центр.png.png" alt="">
+            <div class="bold16">Медицинский <br> центр</div>
+        </div>
+
+        <div class="bass">
+            <img src="/image/logo/Ресторан.png" alt="">
+            <div class="bold16">Ресторан</div>
+        </div>
+
+        <div class="bass">
+            <img src="/image/logo/Офисы.png" alt="">
+            <div class="bold16">Офисные <br> помещения</div>
+        </div>
+        
+        
+    </div>
+    <div class="button button-plan">
+        <a class="button-downloand" href="">Узнайте подробности</a>
+    </div>
+</div>
+
+
+
+<!-- Условия покупки -->
+<div class="container">
+    <div class="block-prigl">
+        <div class="prigl">Условия покупки офиса
+        </div>
+        <div class="uslov1">
+    
+            <div> <p class="bold18">Безпроцентная рассрочка</p> 
+            <span class="reg13">При заключении договора на покупку <br> вы получаете беспроцентную рассрочку</span> 
+            </div>
+            <img src="/image/logo/процент.png" alt="">
+    
+        </div>
+    
+        <div class="uslov2">
+            
+            <img src="/image/logo/лампа.png" alt="">
+            <div> <p class="bold18">5% - первый взнос</p> 
+            <span class="reg13">На этапе предварительного договора <br>
+                для "заморозки" цены вы должны внести <br>
+                всего 5 % от полной стоимости</span> 
+            </div>
+            
+    
+        </div>
+    
+        <div class="uslov3">
+            
+            <div> <p class="bold18">Наши банк партнер</p> 
+            <img src="/image/logo/сбер.png" alt="">
+            </div>
+            <img src="/image/logo/мешок.png" alt="">
+    
+        </div>
+    
+        <div class="uslov4">    
+            <img src="/image/logo/доля.png" alt="">
+            <div> <p class="bold18">Долевое строительство</p> 
+            <span class="reg13">При покупке офиса мы заключаем с вами договор <br>
+                долевого строительства. Он регистрируется в Минюсте, <br>
+                вы становитесь владельцем недвижимости</span> 
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Документы -->
+    <div class="container">
+        <div class="prigl">Документы 
+        </div>
+        <div class="doc">
+            <img src="/image/Документ.png" alt="">
+            <div class="doc-text"> <p class="bold22">Договор аренды на землю</p> 
+            <span class="reg14"> <p>Земля выделена "под строительство административного здания с подземной парковкой".</p> 
+                Договор подписан при действующем мэре Новосибирска Локте Анатолии Евгеньевиче <br>
+                (что исключает возможность расторжения договора по политическим причинам).</span> 
+            </div>        
+        </div>
+        <div class="doc">   
+            <img src="/image/Документ.png" alt="">
+            <div class="doc-text"> <p class="bold22">Договор аренды на землю</p> 
+            <span class="reg14"> <p>Земля выделена "под строительство административного здания с подземной парковкой".</p> 
+                Договор подписан при действующем мэре Новосибирска Локте Анатолии Евгеньевиче <br>
+                (что исключает возможность расторжения договора по политическим причинам).</span> 
+            </div>           
+        </div>
+    </div>
+</div>
+
+
+<!-- Прогноз роста -->
+<div class="container">
+    <section class="forecast">
+        <div class="prigl">Прогноз роста цены за м2 <br>
+            на разных этапах строительства:
+        </div>
+        <div class="forecast__graphics">
+            <div class="forecast_box">
+                <div class="forecast__text">
+                    73 000 руб.
+                </div>
+                <img class="forecast__img" src="/image/шкала1.png" alt="">
+            </div>
+            <div class="forecast_box">
+                <div class="forecast__text">
+                    80 000 руб.
+                </div>
+                <img class="forecast__img" src="/image/шкала2.png" alt="">
+            </div>
+            <div class="forecast_box">
+                <div class="forecast__text">
+                    90 000 руб.
+                </div>
+                <img class="forecast__img" src="/image/шкала3.png" alt="">
+            </div>
+            <div class="forecast_box">
+                <div class="forecast__text">
+                    100 000 руб.
+                </div>
+                <img class="forecast__img" src="/image/шкала4.png" alt="">
+            </div>
+        </div>
+        
+        <div class="worecast__data">
+            <div class="forecast__item-data">Декабрь 2014</div>
+            <div class="forecast__item-data">Август 2015</div>
+            <div class="forecast__item-data">Июль 2016</div>
+            <div class="forecast__item-data">Октябрь 2016</div>
+        </div>
+
+    </section>
+</div>
+
+<!-- Бесплатные услуги по ремонту -->
+    <section class="service">
+        <div class="container">
+            <div class="box-sale">
+                <div class="block-foto">
+                    <img class="foto foto-service" src="/image/строитель.png" alt="">
+                </div>
+                <div class="info-text-form">
+                    <div class="info-text">
+                        <div class="sale-text">Бесплатные услуги <br>  по ремонту помещения</div>
+                        <div class="sale-text">Введите ваше имя, e-mail и телефон.</div>
+                        <div class="sale-text">Наш специалист свяжется с вами для консультации.</div>
+                    </div>
+                    <form class="form" name="sale">
+                        <div class="form__name">
+                            <span class="form__name-text">Введите Ваше имя:</span>
+                            <input class="input-name" type="text" id="name" placeholder="Иван Иванов">
+                        </div>
+                        <div class="form-mail">
+                            <span class="form__name-text">Введите Ваш e-mail:</span>
+                            <input class="input-mail" type="email" name="" id="mail" placeholder="ivanov@mail.ru">
+                        </div>
+                        <div class="form-tel">
+                            <span class="form__name-text">Введите Ваш телефон:</span>
+                            <div class="input_tel">
+                                <div class="input_tel-1">
+                                    <input class="tel" type="tel" name="" id="fon1" placeholder="+7">
+                                </div>
+                                <div class="input_tel-2">
+                                    <input class="tel" type="tel" name="" id="fon2" placeholder="123">
+                                </div>
+                                <div class="input_tel-3">
+                                    <input class="tel" type="tel" name="" id="fon3" placeholder="456-78-90">
+                                </div>
+                            </div>
+                            <div class="button button-remont">
+                                <input class="input-button" type="submit" value="Получить бесплатную консультацию">
+                            </div>
+                            <div class="call">
+                                <span class="call__text">Или позвоните нам по телефону +7 (383) 248-48-08</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+<!-- Карта отдел продаж -->
+<section class="map">
+    <div class="map-office">
+        <div class="map-info">
+            <div class="map-text-gps" >Контакты:</div> 
+                <ul>
+                    <li class="map-text">г. Новосибирск, ул. Военная Горка 4-я линия, д.36</li>
+                    <li class="map-text">Прямой доступ к Каменской магистрали</li>
+                    <li class="map-text">Здание расположено рядом с ТРЦ “АУРА” в 500 метрах</li>
+                    <li class="map-text">Рядом метро Площадь Ленина - 1,8 км</li>
+                    <li class="map-text">В шаговой доступности от остановок общественного транспорта</li>
+                </ul> 
+            <div class="button button-cool">
+                <input class="input-button" type="submit" value="Заказать звонок">
+            </div>
+        </div>
+    </div>           
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="question-box">
+            <p class="question">Остались вопросы?</p>
+            <p class="question-manager">Задайте их менеджеру</p>
+            <p class="s3">Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями ст.437 ГК РФ</p>
+        </div>
+        <div class="site">
+            <div class="s1">Сайт разработан:</div>
+            <div class="s2">ООО “Технологии продаж”</div>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+</html>
